@@ -1,7 +1,5 @@
----
 deployment:
   tasks:
     - export DEPLOYPATH=/home/btyhasub/public_html/github
-    - /bin/cp gyuyt.txt $DEPLOYPATH
-    - /bin/cp .cpanel.yml $DEPLOYPATH
+    - /bin/cp * $DEPLOYPATH
     
